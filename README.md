@@ -9,6 +9,6 @@ This script is written in Python 3, therefore I recommend installing the latest 
  - Open a Terminal / Command Line / Powershell prompt in the folder the script is in and type ```python3 -m venv .venv``` to build a virtual environment for the scripts to run in. 
  - Activate the virtual environment with ```.\.venv\Scripts\activate.bat``` in Windows Command Line, ```.\.venv\Scripts\activate.ps1``` in Windows Powershell or ```source \.venv\Scripts\activate``` on Linux or Mac.
  - Load the required libraries with ```pip install -r requirements.txt```.
- - type ```python3 notifier.py``` to run the program.
+ - type ```python3 update_check.py``` to run the script.
 
 I'd recommend setting up a task / cron to run ```update_check.py``` every day or two to ensure you don't miss out on an update.
